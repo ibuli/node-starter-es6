@@ -1,0 +1,20 @@
+{
+  "name": "node-starter-es6",
+  "version": "1.0.0",
+  "description": "NodeJS Starter Repository With ES6",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NodeJS",
+    "Express",
+    "ES6",
+    "StarterRepository"
+  ],
+  "author": "Burhan Bharmal",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
