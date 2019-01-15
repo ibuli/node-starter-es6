@@ -10,11 +10,16 @@
     "NodeJS",
     "Express",
     "ES6",
-    "StarterRepository"
+    "Starter Repository"
   ],
   "author": "Burhan Bharmal",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-watch": "^2.0.8"
   }
 }
