@@ -6,7 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "del /s /q dist && babel server.js --out-dir dist",
-    "dev": "babel-watch server.js"
+    "dev": "babel-watch server.js",
+    "prelint:js": "npm run format:all",
+    "lint:js": "eslint ./*.js",
+    "format:all": "prettier --write *.js"
   },
   "keywords": [
     "NodeJS",
@@ -22,6 +25,9 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
-    "babel-watch": "^2.0.8"
+    "babel-watch": "^2.0.8",
+    "eslint-config-prettier": "^3.4.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "^1.15.3"
   }
 }

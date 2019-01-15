@@ -1,12 +1,12 @@
-NodeJS, Express & ES6 API Boilerplate
-==================================
+# NodeJS, Express & ES6 API Boilerplate
 
 This is a straightforward boilerplate for building REST APIs with ES6 and Express.
 
-- ES6 support via [babel](https://babeljs.io)
+- ES6 Javascript transpiled with [Babel](https://babeljs.io)
+- Linting with [Eslint](https://eslint.org/)
+- Formatting using [Prettier](https://prettier.io/) - **Run `npm run format:all` before committing any code**
 
-Getting Started
----------------
+## Getting Started
 
 ```sh
 # clone it
@@ -23,6 +23,11 @@ npm run dev
 npm run build
 ```
 
-License
--------
+#### Format tasks
+
+- `npm lint:js`: lint JavaScript
+- `npm format:all`: format all JS
+
+## License
+
 Apache License 2.0
